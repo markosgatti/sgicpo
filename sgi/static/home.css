@@ -1,0 +1,433 @@
+.mediaViewInfo {
+	--web-view-name: pagina principal;
+	--web-view-id: pagina_principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	
+}
+
+:root {
+	--web-view-ids: pagina_principal;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;	
+	
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	
+}
+
+footer {
+    text-align: center;
+	position:absolute;
+	top:679px;
+}
+
+
+.pagina_principal_Class {
+	padding-right: 8%;
+	position:absolute;
+	left:50%;
+	top: 0;
+	background-color: aliceblue;
+	width:1500px;
+	height:100%;
+	min-width: 1500px;
+	max-width: 1500px;
+	transform: translateX(-50%) translateY(-0%);
+	overflow: hidden;
+	display:contents;
+	--web-view-name: pagina principal;
+	--web-view-id: pagina_principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+.imagem_fundo_Class {
+	position: absolute;
+	width: 1918px;
+	height: 966px;
+	left: 2px;
+	top: 0px;
+	overflow: visible;
+}
+.video-fundo {
+	position: fixed;
+ 	 top: 0;
+  	left: 0;
+  	object-fit: cover;
+  	width: 100%;
+
+}
+.metro_logo_Class {
+	position: absolute;
+	width: 250px;
+	height: 68px;
+	left: 3%;
+	top: 20px;
+	overflow: visible;
+}
+.estrutura_menu {
+	background: rgba(35,63,104,0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 23px;
+	position: fixed;
+	overflow: visible;
+	width: 95%;
+	height: 56px;
+	left: 40px;
+	top: 130px;
+	padding: 0px 15px;
+}
+.estrutura_login {
+	background: rgba(35,63,104,0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 450px;
+	height: 260px;
+	left: 67%;
+	top: 200px;
+	
+	padding: 0px;
+}
+.estrutura_botao_login {
+	background: rgba(79,80,79,1);
+	border-radius: 30px;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	height: 34px;
+	left: 200px;
+	top: 200px;
+}
+.estrutura_botao_login:hover{
+	background: #000030;
+	border-radius: 30px;
+	filter: drop-shadow (0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	height: 34px;
+	left: 200px;
+	top: 200px;
+}
+
+.text_login {
+	position: absolute;
+	left: 50px;
+	top: 0px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(171,169,169,1);
+	background: none;
+}
+.text_login:hover {
+	position: absolute;
+	left: 50px;
+	top: 0px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(171,169,169,1);
+	background: none;
+}
+
+.campo_email {
+	background: rgb(213, 208, 208);
+	font-size: 15px;
+	border-radius: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 40px;
+	left: 125px;
+	top: 30px;
+	padding: 10px;
+}
+.text_email {
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(171,169,169,1);
+}
+.esqueci_a_senha_Class {
+	position: absolute;
+	left: 215px;
+	top: 160px;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(171,169,169,1);
+	text-decoration: true;
+}
+.fonte-esqueci-senha{
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(171,169,169,1);
+	text-decoration: true;
+}
+
+.campo_senha {
+	background: rgb(213, 208, 208);
+	font-size: 15px;
+	border-radius: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 40px;
+	left: 125px;
+	top: 100px;
+	padding: 10px;
+}
+.text__senha {
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(171,169,169,1);
+}
+.Cadastrar_Class {
+	position: absolute;
+	left: 15px;
+	top: 175px;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(207,207,207,1);
+	text-decoration: true;
+}
+.estilo-fonte{
+	position: absolute;
+	text-decoration:none;
+	color: rgba(255,249,249,1);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	top: 25px;
+	
+}
+.link-home {
+	position: absolute;
+	text-decoration:none;
+	left: 20px;
+	padding:10px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-empresa {
+	position: absolute;
+	text-decoration:none;
+	left: 100px;
+	padding:10px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-noticia {
+	position: absolute;
+	text-decoration:none;
+	left: 200px;
+	padding:10px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-tecnologia {
+	position: absolute;
+	text-decoration:none;
+	left: 290px;
+	padding:10px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-faleconosco {
+	position: absolute;
+	text-decoration:none;
+	left: 410px;
+	padding:10px;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.titulo-cont {
+		
+	
+	white-space: nowrap;
+	text-align: right;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,0.831);
+
+}
+
+
+
+
+.estrutura_rodape {
+	background: rgba(35,63,104,0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	width: 100%;
+	height: 100%;
+	left:0px;
+	top:93%;
+	position:fixed;
+
+
+}
+.logo_sao_paulo_Class {
+	position: absolute;
+	width: 182px;
+	height: 60px;
+	left: 90%;
+	top: -2px;
+	
+}
+.logo_estrada_de_ferro_Class {
+	position: absolute;
+	width: 140px;
+	height: 60px;
+	left:82%;
+	top: 0px;
+	overflow: visible;
+}
+.logo_emtu_Class {
+	position: absolute;
+	width: 105px;
+	height: 60px;
+	left: 75%;
+	top: 0px;
+	overflow: visible;
+}
+.logo_cptm_Class {
+	position:absolute;
+	width: 87px;
+	height: 60px;
+	left: 68%;
+	top: 0px;
+	overflow: visible;
+}
+.destaque {
+	background: rgba(35,63,104,0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 23px;
+	position: fixed;
+	overflow: visible;
+	width: 580px;
+	height: 420px;
+	left: 2%;
+	top: 200px;
+}
+
+.img-destaque{
+	border-radius: 23px;
+	position: absolute;
+	width: 560px;
+	height: 400px;
+	left: 10px;
+	top: 10px;
+	overflow: visible;
+}

@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+
+
+.area{
+    background-color: #ffffff;
+    width: 100%;
+    height:110vh;
+    position: fixed;
+    left:0%;
+    top:0%;
+    object-fit: cover;
+    
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+    background: rgb(22, 0, 102);
+    animation: animate 15s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
+.mediaViewInfo {
+	--web-view-name: pagina principal;
+	--web-view-id: pagina_principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	background-size: 100%;
+}
+.header{
+	height: 100px;
+  	
+}
+
+
+.mediaViewInfo {
+	--web-view-name: content-principal;
+	--web-view-id: content-principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;	
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.avatar{
+    
+	width: 190px;
+	height: 80px;
+	left: 1400px;
+    top: 10px;
+	padding: 5px 0px 0px 5px;
+	border-radius: 15px;
+	position:relative;
+	
+}
+.avatar-imagem{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	bottom: 35px;
+	left: 1px;
+	overflow: hidden;
+}
+.avatar-nome{
+	width: 120px;
+	height: 50px;
+	left: 60px;
+	bottom: 50px;
+	padding: 10px 2px;
+	position: relative;
+	font-style: bold;
+	font-family: sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+    
+}
+.botao-sair{
+	position: relative;
+	bottom: 60px;
+	padding: 0px 10px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration:none;
+	color: rgb(122, 122, 122);
+	font-size: 20px;
+
+
+}
+
+
+.estrutura-menu{
+    background: rgba(35, 63, 104, 0.700);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute; 
+    overflow: visible; 
+    width: 98%;
+    height: 3em; 
+    left: 1%; 
+    top: 1%; 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.estrutura-opcao_funcionario{
+    background: rgba(35, 63, 104, 0.700);
+    background-image: 
+    radial-gradient(at 50% 55%, rgb(25, 45, 75) 0, transparent 60%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 0px 50px 50px; 
+    position: absolute; 
+    overflow: visible; 
+
+    width: 28%;
+    height:auto; 
+    left: 3%; 
+    top: 20%; 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 15px 15px 30px rgba(5, 0, 82, 0.432),
+             -15px -15px 30px rgb(5, 0, 82, 0.432);
+}
+
+.estrutura-opcao_armario{
+    background: rgba(35, 63, 104, 0.700);
+    background-image: 
+    radial-gradient(at 50% 55%, rgb(25, 45, 75) 0, transparent 60%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 0px 50px 50px; 
+    position: absolute; 
+    overflow: visible; 
+
+    width: 28%;
+    height:auto; 
+    left: 36%; 
+    top: 20%; 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 15px 15px 30px rgba(5, 0, 82, 0.432),
+             -15px -15px 30px rgb(5, 0, 82, 0.432);
+}
+
+.estrutura-opcao_turno{
+    background: rgba(35, 63, 104, 0.700);
+    background-image: 
+    radial-gradient(at 50% 55%, rgb(25, 45, 75) 0, transparent 60%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 0px 50px 50px; 
+    position: absolute; 
+    overflow: visible; 
+
+    width: 28%;
+    height:auto; 
+    right: 3%; 
+    top: 20%; 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 15px 15px 30px rgba(5, 0, 82, 0.432),
+             -15px -15px 30px rgb(5, 0, 82, 0.432);
+}
+
+.formulario{
+    max-width: 50em;
+    height:auto;
+}
+
+.button-enviar {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    padding: 0.3em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #7e7e7e;
+    border: 1px solid #7e7e7e;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #292a53,
+                -6px -6px 12px #292a53;
+                
+   }
+   
+   .button-enviar:hover {
+    background-color: #292a53;
+    border: 1px solid #292a53;
+    box-shadow: 6px 6px 12px #161697,
+                -6px -6px 12px #161697;
+
+   }
+   
+   .button-enviar:active {
+    background-color: #222346;
+    box-shadow: 4px 4px 12px #01024e,
+                -4px -4px 12px #01024e;
+   }
+.link-home {
+	position: absolute;
+	text-decoration:none;
+	left: 20px;
+	padding:5px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-consultar{
+	position: absolute;
+	text-decoration:none;
+	left: 100px;
+	padding:5px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.link-alterar {
+	position: absolute;
+	text-decoration:none;
+	left: 230px;
+	padding:5px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,249,249,1);
+}
+.logo{
+    left: 2%; 
+    top:3%;
+    padding:2px;
+    width: 13%;
+    position: absolute; 
+    overflow: visible;
+}
+
+.estrutura_rodape {
+	background: rgba(35,63,104,0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+    align-items: center;
+	width: 100%;
+	height: 8%;
+	left:0px;
+	bottom: 1%;
+	position:absolute;
+
+
+}
+.logo_sao_paulo_Class {
+	position: absolute;
+	width: 182px;
+	height: 60px;
+	left: 90%;
+	top: -2px;
+	
+}
+.logo_estrada_de_ferro_Class {
+	position: absolute;
+	width: 140px;
+	height: 60px;
+	left:82%;
+	top: 0px;
+	overflow: visible;
+}
+.logo_emtu_Class {
+	position: absolute;
+	width: 105px;
+	height: 60px;
+	left: 75%;
+	top: 0px;
+	overflow: visible;
+}
+.logo_cptm_Class {
+	position:absolute;
+	width: 87px;
+	height: 60px;
+	left: 68%;
+	top: 0px;
+	overflow: visible;
+}
+
+.input {
+    max-width: 400px;
+    height: 30px;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #6d6d6d;
+    caret-color: rgba(35,63,104,0.700);
+    background-color: rgba(255, 255, 255, 0);
+    color:#ffffff;
+    padding: 5px;
+    transition: .5s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+  
+  .input:focus {
+    border: 2px solid rgba(35,63,104,0.700);
+    caret-color: #ffffff;
+    color: #000000;
+    box-shadow: 4px 4px 10px #020931;
+  }
+  
+  .input:focus::placeholder {
+    color: #ffffff;
+    
+  }

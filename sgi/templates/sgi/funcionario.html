@@ -1,0 +1,23 @@
+{% extends "sgi/layout.html" %}
+
+{% block body %}
+
+    <h1>Funcionario {{ funcionario.id }}</h1>
+
+    <ul>
+        <li>{{ funcionario.nome }}</li>
+        <li>{{ funcionario.posto }}</li>
+    </ul>
+
+    <h1>Turno</h1>
+
+    <ul>
+        {% for turno in turnos %}
+            <li><h2>{{ turno }}</h2></li>
+        {% empty %}
+            <li><h2>Sem Registro</h2></li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'tasks:index' %}">BACK</a>
+{% endblock %}

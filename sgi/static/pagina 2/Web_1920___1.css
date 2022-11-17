@@ -1,0 +1,632 @@
+.mediaViewInfo {
+	--web-view-name: pagina principal;
+	--web-view-id: pagina_principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920___1 {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 100%;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+.video-fundo {
+	position: fixed;
+ 	 top: 0;
+  	left: 0;
+  	object-fit: cover;
+  	width: 100%;
+
+}
+#fundo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: auto;
+	top: auto;
+	overflow: flexbox;
+}
+
+#imagem_fundo {
+	position: absolute;
+	width: 1918px;
+	height: 966px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#rodap_ {
+	position: absolute;
+	width: 1940px;
+	height: 114px;
+	left: 0px;
+	top: 966px;
+	overflow: fixed;
+}
+.Ret_ngulo_21 {
+	background: rgba(35, 63, 104, 0.700);
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 114px;
+	left: 0px;
+	top: 0px;
+	object-fit:cover;
+}
+#logo_horizontal {
+	position: absolute;
+	width: 360px;
+	height: 99px;
+	left: 1580px;
+	top: 0px;
+	overflow: visible;
+}
+#NoPath___Copia {
+	position: absolute;
+	width: 227px;
+	height: 99px;
+	left: 1433px;
+	top: 7px;
+	overflow: visible;
+}
+#NoPath___Copia__2_ {
+	position: absolute;
+	width: 168px;
+	height: 99px;
+	left: 1265px;
+	top: 7px;
+	overflow: visible;
+}
+#NoPath___Copia__3_ {
+	position: absolute;
+	width: 140px;
+	height: 99px;
+	left: 1123px;
+	top: 7px;
+	overflow: visible;
+}
+.Ret_ngulo_22 {
+	background: rgba(35, 63, 104, 0.600);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(10px);
+	position: absolute;
+	overflow: visible;
+	width: 1361px;
+	height: 309px;
+	left: 280px;
+	top: 420px;
+	border-radius: 23px;
+}
+#menus {
+	position: absolute;
+	width: 1867px;
+	height: 78px;
+	left: 27px;
+	top: 29px;
+	overflow: visible;
+}
+.Ret_ngulo_20 {
+	background: rgba(35, 63, 104, 0.700);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	position: absolute;
+	overflow: visible;
+	width: 1860px;
+	height: 96px;
+	left: 0px;
+	top: -5px;
+	border-radius: 23px;
+}
+#Empresa {
+	position: absolute;
+	left: 152px;
+	top: 17px;
+	overflow: visible;
+	width: 120px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,249,249,1);
+}
+#Not_cia {
+	position: absolute;
+	left: 296px;
+	top: 20px;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,249,249,1);
+}
+#Tecnologia {
+	position: absolute;
+	left: 422px;
+	top: 20px;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,249,249,1);
+}
+#Fale_conosco {
+	position: absolute;
+	left: 599px;
+	top: 20px;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,249,249,1);
+}
+#Home {
+	position: absolute;
+	left: 42px;
+	top: 17px;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,249,249,1);
+}
+#funcionario {
+	position: absolute;
+	width: 261px;
+	height: 184.638px;
+	left: 363px;
+	top: 477.362px;
+	overflow: visible;
+}
+#Grupo_6 {
+	position: absolute;
+	width: 141.219px;
+	height: 117.953px;
+	left: 58.183px;
+	top: 0px;
+	overflow: visible;
+}
+.Caminho_2 {
+	overflow: visible;
+	position: absolute;
+	width: 78.348px;
+	height: 106.148px;
+	left: 62.871px;
+	top: 100px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_1 {
+	overflow: visible;
+	position: absolute;
+	width: 101.902px;
+	height: 106.148px;
+	left: 0px;
+	top: 11.805px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#botao_funcionario {
+	position: absolute;
+	width: 193px;
+	height: 51px;
+	left: 34px;
+	top: 133.638px;
+	overflow: visible;
+}
+#Componente_8___1 {
+	position: absolute;
+	width: 193px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Entrar {
+	position: absolute;
+	left: 68px;
+	top: 7px;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(171,169,169,1);
+}
+#Funcion_rio {
+	position: absolute;
+	left: 0px;
+	top: 71.638px;
+	overflow: visible;
+	width: 262px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 47px;
+	color: rgba(255,249,249,1);
+}
+#controle {
+	position: absolute;
+	width: 192px;
+	height: 179px;
+	left: 726px;
+	top: 483px;
+	overflow: visible;
+}
+#bloco_de_nota {
+	position: absolute;
+	width: 95px;
+	height: 110px;
+	left: 85px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_23 {
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.Linha_3 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 25.93px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_4 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 37.71px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_5 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 49.491px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_6 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 61.271px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_7 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 73.051px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_8 {
+	overflow: visible;
+	position: absolute;
+	width: 60.545px;
+	height: 4px;
+	left: 19.711px;
+	top: 84.831px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_3 {
+	overflow: visible;
+	position: absolute;
+	width: 101.902px;
+	height: 106.148px;
+	left: 11.185px;
+	top: 7.738px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#botao_controle {
+	position: absolute;
+	width: 192px;
+	height: 51px;
+	left: 0px;
+	top: 128px;
+	overflow: visible;
+}
+#Componente_8___1_bh {
+	position: absolute;
+	width: 192px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_5_bi {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Entrar_bj {
+	position: absolute;
+	left: 67px;
+	top: 7px;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(171,169,169,1);
+}
+#Controle_bk {
+	position: absolute;
+	left: 1px;
+	top: 65px;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 47px;
+	color: rgba(255,249,249,1);
+}
+#cadastro {
+	position: absolute;
+	width: 195px;
+	height: 175.188px;
+	left: 1020px;
+	top: 486.812px;
+	overflow: visible;
+}
+#Grupo_7 {
+	position: absolute;
+	width: 58.904px;
+	height: 58.904px;
+	left: 96.263px;
+	top: 44.435px;
+	overflow: visible;
+}
+.Caminho_5 {
+	overflow: visible;
+	position: absolute;
+	width: 58.904px;
+	height: 58.904px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_6 {
+	overflow: visible;
+	position: absolute;
+	width: 28.519px;
+	height: 28.519px;
+	left: 15.183px;
+	top: 15.183px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_4 {
+	overflow: visible;
+	position: absolute;
+	width: 101.902px;
+	height: 106.148px;
+	left: 10.983px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#botao_cadastro {
+	position: absolute;
+	width: 192px;
+	height: 51px;
+	left: 0px;
+	top: 124.188px;
+	overflow: visible;
+}
+#Componente_8___1_br {
+	position: absolute;
+	width: 192px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_5_bs {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Entrar_bt {
+	position: absolute;
+	left: 67px;
+	top: 7px;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(171,169,169,1);
+}
+#Cadastro_bu {
+	position: absolute;
+	left: 0px;
+	top: 61.188px;
+	overflow: visible;
+	width: 196px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 47px;
+	color: rgba(255,249,249,1);
+}
+#consulta {
+	position: absolute;
+	width: 193px;
+	height: 175.188px;
+	left: 1317px;
+	top: 486.812px;
+	overflow: visible;
+}
+#lupa {
+	position: absolute;
+	width: 52.318px;
+	height: 69.215px;
+	left: 112.694px;
+	top: 25.941px;
+	overflow: visible;
+}
+.Uni_o_1 {
+	overflow: visible;
+	position: absolute;
+	width: 61.47px;
+	height: 77px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_7 {
+	overflow: visible;
+	position: absolute;
+	width: 101.902px;
+	height: 106.148px;
+	left: 14.849px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#botao_consulta {
+	position: absolute;
+	width: 193px;
+	height: 51px;
+	left: 0px;
+	top: 124.188px;
+	overflow: visible;
+}
+#Componente_8___1_b {
+	position: absolute;
+	width: 193px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_5_b {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Entrar_b {
+	position: absolute;
+	left: 68px;
+	top: 7px;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(171,169,169,1);
+}
+#Consulta_b {
+	position: absolute;
+	left: 0px;
+	top: 62.188px;
+	overflow: visible;
+	width: 194px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 47px;
+	color: rgba(255,249,249,1);
+}
+#metro_logo {
+	position: absolute;
+	width: 300px;
+	height: 78px;
+	left: 3%;
+	top: 3%;
+	overflow: visible;
+}

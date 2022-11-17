@@ -1,0 +1,23 @@
+{% extends "sgi/home2.html" %}
+
+{% block body %}
+
+        <ul>
+            {% for funcionario in funcionarios %}
+
+                <li>
+                    <a href="{% url 'tasks:funcionario' funcionario.id %}">
+                        <h1>Funcionario {{ funcionario.id }}: {{ funconario.nome }}</h1>
+                    </a>
+                </li>
+            {% empty %}
+                <li><h1>Sem Registros</h1></li>
+            {% endfor %}
+
+        </ul>
+
+       
+
+        <a href="{% url 'tasks:add' %}">Add an Employee</a>
+       
+{% endblock %}}

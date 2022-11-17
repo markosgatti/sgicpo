@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Update</title>
+    </head>
+    <body>
+    
+        <h1>{{ empregado.id }} - {{ empregado.name }} {{ empregado.register }} {{ empregado.area }}</h1>
+
+        <form action="{% url 'tasks:update' empregado.id %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="nome" value="{{ empregado.name }}">
+            <input type="text" name="registro" value="{{ empregado.register }}">
+            <input type="text" name="area" value="{{ empregado.area }}">
+            <button type="submit">Save</button>
+
+        </form>
+
+    </body>
+</html>
